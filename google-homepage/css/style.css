@@ -1,0 +1,270 @@
+* {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  color: #222;
+}
+
+.top_navbar {
+  position: relative;
+  top: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.top_navbar li {
+  display: inline-block;
+}
+
+.left_top {
+  position: absolute;
+  margin: 7px 0px 0px 6px;
+  opacity: 0.75;
+}
+
+.left_top a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 15px;
+}
+
+.right_top {
+  float: right;
+  margin: 7px 40px 0px 0px;
+  opacity: 0.75;
+}
+
+.right_top a {
+  text-decoration: none;
+  color: #000;
+  padding-right: 15px;
+}
+
+.middle {
+  margin: 0 auto;
+  position: relative;
+  height: 260px;
+  width: 660px;
+  top: 200px;
+  left: 15px;
+}
+
+.Google_logo {
+  height: 116px;
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.search-bar-input {
+  background-color: transparent;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding-left: 40px;
+  margin: 0;
+  height: 37px;
+  width: 527px;
+  margin-top: -37px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-bar-input:focus {
+  outline: none;
+  -webkit-box-shadow: #808080;
+          box-shadow: #808080;
+}
+
+.search_bar {
+  position: relative;
+  margin: 0 auto;
+  width: 640px;
+  height: 120px;
+  top: 10px;
+  left: 15px;
+}
+
+.search_bar_box {
+  background: #fff;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+}
+
+.mag_glass {
+  position: relative;
+  float: left;
+  top: -75px;
+  left: 10px;
+}
+
+.mag_glass svg {
+  fill: #808080;
+  width: 21px;
+  height: 30px;
+}
+
+.mic {
+  position: relative;
+  width: 27px;
+  height: 30px;
+  float: right;
+  top: -75px;
+  right: 60px;
+}
+
+.mic img {
+  width: 21px;
+  height: 30px;
+}
+
+.s_buttons {
+  height: 40px;
+  width: 380px;
+  position: relative;
+  margin: 0 auto;
+  top: 30px;
+  left: 20px;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.search_button {
+  background-color: #F3F3F3;
+  color: #988478;
+  width: 126px;
+  height: 36px;
+  position: relative;
+  right: 3px;
+  border: hidden;
+  border-radius: 2px;
+}
+
+.search_button:hover {
+  border: 1px solid #C6C6C6;
+  color: #222;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
+
+.lucky_button {
+  background-color: #F3F3F3;
+  color: #988478;
+  width: 144px;
+  height: 36px;
+  position: relative;
+  left: 3px;
+  border: hidden;
+  border-radius: 2px;
+}
+
+.lucky_button:hover {
+  border: 1px solid #C6C6C6;
+  color: #222;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
+
+input[type=submit] {
+  color: #757575;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.bottom_navbar {
+  width: 100%;
+  height: 40px;
+  background-color: #F2F2F2;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  bottom: 0px;
+  border-top: 1px solid #E4E4E4;
+}
+
+.left-footer {
+  display: inline;
+  margin: 0 0 50px 30px;
+  float: left;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.left-footer a {
+  color: #666;
+  font-family: Arial;
+  text-decoration: none;
+  font-size: small;
+  padding-right: 10px;
+}
+
+.left-footer a:visited {
+  color: #666;
+  font-family: Arial;
+  text-decoration: none;
+  font-size: small;
+}
+
+.left-footer a:hover {
+  color: #666;
+  font-family: Arial;
+  text-decoration: underline;
+  font-size: small;
+}
+
+.left-footer li {
+  display: inline;
+}
+
+.right-footer {
+  float: right;
+  margin: 0 30px 50px 0;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.right-footer a {
+  color: #666;
+  font-family: Arial;
+  text-decoration: none;
+  font-size: small;
+  padding-left: 10px;
+}
+
+.right-footer a:visited {
+  color: #666;
+  font-family: Arial;
+  text-decoration: none;
+  font-size: small;
+}
+
+.right-footer a:hover {
+  color: #666;
+  font-family: Arial;
+  text-decoration: underline;
+  font-size: small;
+}
+
+.right-footer li {
+  display: inline;
+}
+/*# sourceMappingURL=style.css.map */
